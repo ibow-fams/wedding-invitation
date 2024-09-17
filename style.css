@@ -397,10 +397,10 @@ footer li a {
 
 /* Laptop */
 @media (max-width: 992px) {
-  html {
+   html {
     font-size: 75%;
   }
-  .simply-countdown > .simply-section {
+   .simply-countdown > .simply-section {
     padding: 70px;
   }
 
@@ -442,6 +442,7 @@ footer li a {
   html {
     font-size: 65%;
   }
+  
   .simply-countdown > .simply-section {
     padding: 60px;
     margin: 5px;
@@ -463,6 +464,10 @@ footer li a {
 @media (max-width: 576px) {
   html {
     font-size: 60%;
+  }
+  .hero {
+    background-size: contain; /* Mengubah ukuran gambar agar sepenuhnya terlihat */
+    background-position: top; /* Menempatkan bagian atas gambar sebagai fokus */
   }
   .simply-countdown > .simply-section {
     padding: 45px;
@@ -494,6 +499,7 @@ footer li a {
   html {
     font-size: 40%;
   }
+  
   .simply-countdown > .simply-section {
     padding: 25px; /* Atur padding sesuai kebutuhan Anda */
     margin: 1.5px; /* Atur margin sesuai kebutuhan Anda */
