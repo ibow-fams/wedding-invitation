@@ -497,12 +497,12 @@ footer li a {
 /* Media Query untuk viewport 393px x 732px */
 @media (max-width: 403px) {
   html {
-    font-size: 40%;
+    font-size: 50%;
   }
   
   .simply-countdown > .simply-section {
-    padding: 25px; /* Atur padding sesuai kebutuhan Anda */
-    margin: 1.5px; /* Atur margin sesuai kebutuhan Anda */
+    padding: 35px; /* Atur padding sesuai kebutuhan Anda */
+    margin: 2px; /* Atur margin sesuai kebutuhan Anda */
   }
   .mynavbar .nav-link {
     font-size: 2rem;
@@ -529,4 +529,4 @@ footer li a {
     padding-bottom: 8rem;
     min-height: 100vh;
   }
-}
+ }
